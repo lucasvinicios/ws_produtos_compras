@@ -1,97 +1,59 @@
-🛒 Supermarket Price Scraper
-Este projeto automatiza a coleta de preços de produtos em diferentes supermercados online utilizando Selenium e Python. O objetivo é facilitar a comparação de preços para encontrar as melhores ofertas.
+# 🛒 Supermarket Price Scraper
 
-🚀 Tecnologias Utilizadas
-Python 3.11.1
+Este projeto automatiza a coleta de preços de produtos em diferentes supermercados online utilizando **Selenium** e **Python**. O objetivo é facilitar a comparação de preços para encontrar as melhores ofertas.
 
-Selenium WebDriver
+---
 
-Pandas
+## 🚀 Tecnologias Utilizadas
 
-Google Chrome
+- Python 3.11.1
+- Selenium WebDriver
+- Pandas
+- Google Chrome
+- ChromeDriver
+- Virtualenv
 
-ChromeDriver
+---
 
-Virtualenv
+## ✅ Pré-requisitos
 
-📁 Estrutura do Projeto
-bash
-Copiar
-Editar
-Supermarket-Scraper/
-│-- app.py                # Script principal
-│-- requirements.txt      # Dependências do projeto
-│-- README.md             # Documentação do projeto
-│-- .gitignore            # Arquivos ignorados pelo Git
-✅ Pré-requisitos
 Antes de iniciar, certifique-se de ter instalado:
 
-Python 3.11.1
+- Python 3.11.1
+- Google Chrome
+- ChromeDriver compatível com sua versão do Chrome
+- Git
 
-Google Chrome
+---
 
-ChromeDriver (compatível com sua versão do Chrome)
+## ⚙️ Instalação
 
-Git
+1. **Clone o repositório**
 
-⚙️ Instalação
-Clone o repositório
-
-bash
-Copiar
-Editar
+```bash
 git clone <URL_DO_REPOSITORIO>
 cd Supermarket-Scraper
-Crie e ative o ambiente virtual
+```
 
-Linux/Mac:
-
-bash
-Copiar
-Editar
-python -m venv venv
-source venv/bin/activate
-Windows:
-
-bash
-Copiar
-Editar
+2. **Crie e ative o ambiente virtual**
 python -m venv venv
 venv\Scripts\activate
-Instale as dependências
 
-bash
-Copiar
-Editar
+3. **Instale as dependências**
 pip install -r requirements.txt
-Configure o caminho do ChromeDriver
 
-Edite o arquivo app.py e insira o caminho correto do ChromeDriver na inicialização do Selenium WebDriver.
+4. **Configure o caminho do ChromeDriver**
+No arquivo app.py, ajuste o caminho do ChromeDriver na criação do WebDriver, se necessário.
 
-▶️ Uso
-Modifique a lista de supermercados e produtos no arquivo app.py.
 
-Execute o script
+▶️ **Uso** 
+Altere a lista de supermercados e produtos no arquivo app.py.
 
-bash
-Copiar
-Editar
+Execute o script:
 python app.py
-Visualize os dados no terminal ou modifique o código para exportar para Excel/CSV.
 
-🤝 Contribuição
-Contribuições são bem-vindas! Para contribuir:
+Os dados coletados serão exibidos no terminal (ou podem ser exportados conforme sua necessidade).
 
-Faça um fork do repositório
+   
 
-Crie uma nova branch: git checkout -b minha-feature
-
-Faça suas alterações e commit: git commit -m "Minha contribuição"
-
-Envie para seu repositório: git push origin minha-feature
-
-Abra um Pull Request
-
-📄 Licença
-Este projeto está licenciado sob a MIT License.
-
+   
