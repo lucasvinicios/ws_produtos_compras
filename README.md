@@ -1,4 +1,4 @@
-# 🛒 Supermarket Price Scraper
+# 🛒 WebScraper/Análise - Preços Supermercados
 
 Este projeto automatiza a coleta de preços de produtos em diferentes supermercados online utilizando **Selenium** e **Python**. O objetivo é facilitar a comparação de preços para encontrar as melhores ofertas.
 
